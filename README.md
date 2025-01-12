@@ -10,6 +10,7 @@ Tests are included here:
 cs342-assignment1Tests/cs342_assignment1Tests.swift
 
 All tests pass:
+
 <img width="741" alt="Screenshot 2025-01-12 at 11 53 48 AM" src="https://github.com/user-attachments/assets/f4442dbf-3765-44ae-a71d-e49fbb11f0f4" />
 
 
