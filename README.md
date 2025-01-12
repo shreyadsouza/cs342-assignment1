@@ -14,3 +14,8 @@ All tests pass:
 <img width="741" alt="Screenshot 2025-01-12 at 11 53 48 AM" src="https://github.com/user-attachments/assets/f4442dbf-3765-44ae-a71d-e49fbb11f0f4" />
 
 
+Design Choices:
+- Medication frequency is stored as an int to denote the number of times a day a medication will be taken. This could be changed to "weekly" or "daily" depending on future functionality
+- BloodType is stored using an Enum, including the " Unknown " type. This explicitly states when a blood type is not known, preserving the categorical nature of the type.
+- I included additional functionality to store patients' emails and allergies.
+- Donor blood types are determined using a function within the patient class. This could alternatively be implemented within teh blood type istelf. 
