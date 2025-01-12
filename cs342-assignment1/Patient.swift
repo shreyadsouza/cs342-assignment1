@@ -42,7 +42,8 @@ class Patient {
     
     // Filters medications based on them not being complete and sorts by date prescribed
     func getCurrentMedications() -> [Medication] {
-        medications.filter({!$0.isCompleted}).sorted(by:{ $0.datePrescribed<$1.datePrescribed })
+        // might update to only return names
+        return medications.filter({!$0.isCompleted}).sorted(by:{ $0.datePrescribed<$1.datePrescribed })
     }
     
     // Defines errors

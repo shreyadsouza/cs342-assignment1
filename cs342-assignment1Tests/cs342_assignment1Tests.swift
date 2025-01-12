@@ -117,6 +117,7 @@ struct cs342_assignment1Tests {
         try patient.prescribeMedication(medication: medication2)
         // Medication 2 should be listed before medication 1, since it was prescribed at an earlier date
         print(patient.getCurrentMedications())
+        #expect(patient.getCurrentMedications()[0].name=="Aspirin")
         #expect(patient.getCurrentMedications().count==2)
     }
     
@@ -125,6 +126,7 @@ struct cs342_assignment1Tests {
         try patient.prescribeMedication(medication: medication4)
         try patient.prescribeMedication(medication: medication1)
         #expect(medication4.isCompleted)
+        // Check that only one medication is in list
         #expect(patient.getCurrentMedications().count==1)
     }
     
@@ -178,3 +180,4 @@ struct cs342_assignment1Tests {
         #expect(patient.getDonorBloodTypes().count==1)
     }
 }
+ 
