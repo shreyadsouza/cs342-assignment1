@@ -11,7 +11,7 @@ cs342-assignment1Tests/cs342_assignment1Tests.swift
 
 All tests pass:
 
-<img width="741" alt="Screenshot 2025-01-12 at 11 53 48 AM" src="https://github.com/user-attachments/assets/f4442dbf-3765-44ae-a71d-e49fbb11f0f4" />
+<img width="742" alt="Screenshot 2025-01-12 at 2 03 29 PM" src="https://github.com/user-attachments/assets/254a8566-40ff-4f9c-9a93-0ba7fea8b844" />
 
 
 Design Choices:
