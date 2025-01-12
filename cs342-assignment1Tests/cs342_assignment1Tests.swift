@@ -167,7 +167,7 @@ struct cs342_assignment1Tests {
                case .duplicateMedication(let message):
                    print("Test failed: Incorrect error thrown with message: \(message)")
                case .allergicMedication(let message):
-                   #expect(message == "Patient is allergic to medication Penecillin", "Test failed: Unexpected error message: \(message)")
+                   #expect(message == "Patient is allergic to medication Penicillin", "Test failed: Unexpected error message: \(message)")
                    print("Test passed: Correct error thrown with message: \(message)")               }
            } catch {
                print("Test failed: Unexpected error type: \(error)")
