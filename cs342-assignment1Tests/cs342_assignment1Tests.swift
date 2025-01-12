@@ -14,7 +14,7 @@ struct cs342_assignment1Tests {
     // Defines a patient to be used in all Unit tests
     var patient: Patient = {
         // Defines patient allergy to penecillin
-        let patientAllergy = Allergy(allergen: "Penecillin", reaction: "Skin rash", severity: Allergy.AllergySeverityEnum.mild)
+        let patientAllergy = Allergy(allergen: "Penicillin", reaction: "Skin rash", severity: Allergy.AllergySeverityEnum.mild)
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM/dd/yyyy"
         return Patient(
@@ -55,11 +55,11 @@ struct cs342_assignment1Tests {
         return Medication(datePrescribed: dateFormatter.date(from: "01/03/2024")!, name: "Metoprolol", dose: "25 mg", route: "by mouth", frequency: 1, duration: 90)
     }()
     
-    // Used to test allergy to penecillin
+    // Used to test allergy to penicillin
     let medication5: Medication = {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM/dd/yyyy"
-        return Medication(datePrescribed: dateFormatter.date(from: "01/04/2024")!, name: "Penecillin", dose: "25 mg", route: "by mouth", frequency: 1, duration: 7)
+        return Medication(datePrescribed: dateFormatter.date(from: "01/04/2024")!, name: "Penicillin", dose: "25 mg", route: "by mouth", frequency: 1, duration: 7)
     }()
     
    
