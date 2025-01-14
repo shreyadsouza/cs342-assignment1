@@ -18,4 +18,6 @@ Design Choices:
 - Medication frequency is stored as an int to denote the number of times a day a medication will be taken. This could be changed to "weekly" or "daily" depending on future functionality
 - BloodType is stored using an Enum, including the " Unknown " type. This explicitly states when a blood type is not known, preserving the categorical nature of the type.
 - I included additional functionality to store patients' emails and allergies.
-- Donor blood types are determined using a function within the patient class. This could alternatively be implemented within teh blood type istelf. 
+- Donor blood types are determined using a function within the patient class. This could alternatively be implemented within the blood type itself.
+
+EDIT: After completing some more tutorials, I will be updating the ID for patients to use UUID() instead, guaranteeing uniqueness. 
